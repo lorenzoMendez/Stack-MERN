@@ -1,0 +1,27 @@
+{
+  "name": "MERN",
+  "version": "1.0.0",
+  "description": "Se prueban las funcionalidades que ofrece el stack integrado por las siguientes tecnologias:\r - MongoDB\r - Express\r - React\r - Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzoMendez/Stack-MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzoMendez/Stack-MERN/issues"
+  },
+  "homepage": "https://github.com/lorenzoMendez/Stack-MERN#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
