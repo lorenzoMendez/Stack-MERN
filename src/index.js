@@ -3,6 +3,9 @@
 const express = require( 'express' );
 const morgan = require( 'morgan' );
 const path = require( 'path' );
+
+const { mongoose } = require( './database' );
+
 const app = express();
 
 /// CONFIGURACIONES
@@ -20,7 +23,7 @@ app.use( '/api/task', require( './routes/task.routes' ) );
 
 /// Archivos estaticos
 // obtien la ruta del archivo actual
-console.log( path.join( __dirname, 'public' ) );
+//console.log( path.join( __dirname, 'public' ) );
 app.use( express.static( path.join( __dirname, 'public' ) ) );
 
 // Inicia servidor
